@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  visibility: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-align-left {
+    text-align: left;
+}
+.text-align-right {
+    text-align: right;
+}
+
+.drop-link-style {
+    text-decoration: none;
+    color: black;
+}

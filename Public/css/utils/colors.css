@@ -1,0 +1,32 @@
+:root {
+  /* Current colors */
+    --current-main-color: #000000;
+    --current-secondary-color: #000000;
+    --current-tertiary-color: #000000;
+    --current-background: #000000;
+    --reverse-current-background: #ffffff;
+    --current-font: #ffffff;
+    --current-shadow: #ffffff10;
+    --reverse-current-shadow: #00000010;
+    --current-transparent: #ffffff7a;
+
+    /* Normal mode */
+    --normal-main-color: #e7f3e9;
+    --normal-secondary-color: #5c2483;
+    --normal-tertiary-color: #1dac9b;
+    --normal-background: #e7e7e7;
+    --normal-reverse-background: #1f1f1f;
+    --normal-font: #323232;
+    --normal-shadow: #00000010;
+    --normal-transparent: #0000008d;
+    
+    /* Access mode */
+    --access-main-color: #000000;
+    --access-secondary-color: #000000;
+    --access-tertiary-color: #000000;
+    --access-background: #000000;
+    --access-reverse-background: #ffffff;
+    --access-font: #ffffff;
+    --access-shadow: #ffffff10;
+    --access-transparent: #ffffff8d;
+}
