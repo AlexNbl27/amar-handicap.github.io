@@ -1,6 +1,6 @@
 footer {
-    background-color: var(--normal-main-color);
-    color: var(--normal-font);
+    background-color: var(--current-main-color);
+    color: var(--current-font);
     padding: 5rem  2rem 0.2rem 2rem;
     text-align: center;
 }
@@ -14,17 +14,17 @@ footer {
 }
 
 .footer-infos p {
-    color: var(--normal-secondary-color);
+    color: var(--current-secondary-color);
     width: 30%;
     font-size: 1.2rem;
 }
 
 .footer-infos p a {
-    color: var(--normal-secondary-color);
+    color: var(--current-secondary-color);
 }
 
 .footer-infos p a:hover {
-    color: var(--normal-tertiary-color);
+    color: var(--current-tertiary-color);
 }
 
 .div-logo-footer{

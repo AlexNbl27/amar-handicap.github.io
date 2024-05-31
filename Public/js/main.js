@@ -17,6 +17,5 @@ function loadFooter() {
 }
 
 window.onload = function() {
-    loadNavbar();
     loadFooter();
 }

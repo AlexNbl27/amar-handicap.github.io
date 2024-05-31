@@ -1,4 +1,5 @@
 const themeSwitcher = document.getElementById("themeSwitcher");
+// const accessModeMediaQuery = window.matchMedia("(prefers-color-scheme: access)");
 
 if (localStorage.getItem("themeMode") === null) {
   localStorage.setItem("themeMode", "normal");
@@ -91,6 +92,24 @@ themeSwitcher.addEventListener("change", function () {
   }
   updateTheme();
 });
+
+// window
+//   .matchMedia("(prefers-color-scheme: access)")
+//   .addEventListener("change", function () {
+//     if (accessModeMediaQuery.matches) {
+//       localStorage.setItem("themeMode", "access");
+//     } else {
+//       localStorage.setItem("themeMode", "normal");
+//     }
+
+//     if (localStorage.getItem("themeMode") === "access") {
+//       themeSwitcher.checked = false;
+//     } else {
+//       themeSwitcher.checked = true;
+//     }
+//     updateThemeToggle();
+//     updateTheme();
+//   });
 
 function updateThemeToggle() {
   if (localStorage.getItem("themeMode") === "access") {
