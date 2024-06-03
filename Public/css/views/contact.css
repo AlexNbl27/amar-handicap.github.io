@@ -1,65 +1,53 @@
-#fb-root {
-    position: relative;
-    z-index: 17;
+.contact-page {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: var(--current-background);
 }
-#fb-root .fb_dialog {
-    left: -1000px;
+
+.almost-title {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: var(--current-secondary-color);
 }
-:root {
-    --color-meteorite-dark: #2f1c6a;
-    --color-meteorite: #8c85ff;
-    --color-meteorite-light: #d5dfff;
-    --color-primary-dark: #5025d1;
-    --color-primary: #673de6;
-    --color-primary-light: #ebe4ff;
-    --color-danger-dark: #d63163;
-    --color-danger: #fc5185;
-    --color-danger-light: #ffe8ef;
-    --color-warning-dark: #fea419;
-    --color-warning: #ffcd35;
-    --color-warning-light: #fff8e2;
-    --color-success-dark: #008361;
-    --color-success: #00b090;
-    --color-success-light: #def4f0;
-    --color-dark: #1d1e20;
-    --color-gray-dark: #36344d;
-    --color-gray: #727586;
-    --color-gray-border: #dadce0;
-    --color-gray-light: #f2f3f6;
-    --color-light: #fff;
-    --color-azure: #357df9;
-    --color-azure-light: #e3ebf9;
-    --color-azure-dark: #265ab2;
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.whats-app-bubble {
-    position: fixed;
-    right: 20px;
-    bottom: 24px;
-    z-index: 17;
-    display: flex;
-    cursor: pointer;
-    border-radius: 100px;
-    box-shadow: #00000026 0 4px 12px;
+
+.input-container input {
+  font-family: inherit;
+  padding: 10px;
+  border: 1px solid var(--current-secondary-color);
+  border-radius: 5px;
+  min-height: 2rem;
 }
-.whats-app-bubble--next-to-messenger {
-    right: 95px;
+
+.input-container textarea {
+  font-family: inherit;
+  padding: 10px;
+  border: 1px solid var(--current-secondary-color);
+  border-radius: 5px;
+  min-height: 5rem;
 }
-.globalClass_2ebe {
-    position: relative;
-    z-index: 17;
+
+.input-container label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--current-secondary-color);
 }
-#wtpQualitySign_fixedCSS,
-#wtpQualitySign_popupCSS {
-    bottom: 10px !important;
-}
-#wtpQualitySign_fixedCSS {
-    z-index: 17 !important;
-}
-#wtpQualitySign_popupCSS {
-    z-index: 18 !important;
-}
-astro-island,
-astro-slot,
-astro-static-slot {
-    display: contents;
+
+.input-container button {
+  background-color: var(--current-secondary-color);
+  color: var(--current-background);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 160px;
+  font-size: 18px;
 }

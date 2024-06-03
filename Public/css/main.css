@@ -1,5 +1,51 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
+  background-color: var(--current-main-color);
+  justify-content: center;
+  padding-top: 100px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 12rem;
+}
+
+h1 {
+  font-weight: bold;
+  color: var(--current-secondary-color);
+  font-size: 3rem;
+  padding-bottom: 32px;
+}
+
+h2 {
+  color: var(--current-secondary-color);
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: var(--current-font);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w80 {
+  width: 80%;
 }
 
 .visually-hidden {
@@ -35,14 +81,6 @@ body {
     color: black;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -51,4 +89,76 @@ h2 {
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.separator {
+  width: 120px;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.white-background {
+  background-color: var(--current-background);
+  color: var(--current-font);
+}
+
+.main-color-background {
+  background-color: var(--current-main-color);
+  color: var(--current-font);
+}
+
+.donate-button {
+  background-color: var(--current-tertiary-color);
+  color: var(--current-background);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 160px;
+  font-size: 18px;
+}
+
+.donate-button:hover {
+  background-color: var(--current-secondary-color);
+}
+
+.donation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--current-tertiary-color);
+}
+
+.donation-section .donate-button {
+  background-color: var(--current-secondary-color);
+  color: var(--current-background);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 160px;
+  font-size: 18px;
+}
+
+.donation-section .donate-button:hover {
+  background-color: black;
+}
+
+.donation-section h1 {
+  color: var(--current-background);
+}
+
+.donate-section h3 {
+  color: var(--current-background);
 }

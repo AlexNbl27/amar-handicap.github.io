@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 .ThemeToggle {
   appearance: none;
   width: 84px;
@@ -51,9 +46,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
   background-color: var(--current-main-color);
   color: var(--current-font);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100px;
 }
 
 .navbar .logo {
