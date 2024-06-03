@@ -1,0 +1,49 @@
+.project-page {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.big-info {
+  font-weight: bold;
+  color: var(--current-tertiary-color);
+  font-size: 42px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes de largeur égale */
+  grid-auto-rows: auto; /* Hauteur automatique des lignes */
+  gap: 20px; /* Espacement entre les éléments */
+  text-align: start;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: start;
+}
+
+.grid-item h2 {
+  grid-column: 1 / -1; /* Colonne de la première à la dernière */
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--current-tertiary-color);
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
