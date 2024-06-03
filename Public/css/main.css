@@ -169,6 +169,8 @@ p {
   cursor: pointer;
   width: 160px;
   font-size: 18px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .donation-section .donate-button:hover {
@@ -179,6 +181,6 @@ p {
   color: var(--current-background);
 }
 
-.donate-section h3 {
+.donation-section h3 {
   color: var(--current-background);
 }

@@ -13,58 +13,62 @@
   <link rel="stylesheet" href="../Public/css/views/footer.css">
 </head>
 
-<nav class="navbar" aria-label="Barre de navigation">
-  <div class="logo" style="padding-left:20px">
-    <img src="../Public/images/logo-amar.avif" alt="Logo" class="logo">
-  </div>
-  <ul>
-    <li><a href="../index.html">Accueil</a></li>
-    <li><a href="../Views/a-propos.html">A propos</a></li>
-    <li><a href="../Views/project.html">Le projet</a></li>
-    <li><a href="../Views/contact.html" style="font-weight: bold;">Contact</a></li>
-    <li><a
-        href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1"><button
-          class="donate-button" aria-label="Faire un don">Faire un don</button></a></li>
-    <li><button class="language-switch" aria-label="Changer de langage">FR</button></li>
-    <li>
-      <div class="container">
-        <input id="themeSwitcher" class="ThemeToggle" type="checkbox" title="Activer le mode Haut-Contraste"
-          aria-label="Activer le mode Haut-Contraste">
-      </div>
-    </li>
-  </ul>
-</nav>
-
 <body>
-  <div class="contact-page">
-    <section>
-      <div class="flex1">
-        <p class="almost-title">
-          Vous souhaitez obtenir davantage d'informations?
-        </p>
-      </div>
-      <div class="separator"></div>
-      <form class="input-container flex2">
-        <label for="firstname">Prénom* <span class="visually-hidden">(obligatoire)</span></label>
-        <input type="text" id="firstname" name="firstname" placeholder="François" required>
-        <label for="name">Nom* <span class="visually-hidden">(obligatoire)</span></label>
-        <input type="text" id="name" name="name" placeholder="Durand" required>
-        <label for="email">Email* <span class="visually-hidden">(obligatoire)</span></label>
-        <input type="email" id="email" name="email" placeholder="françois.durand@gmail.com" required>
-        <label for="message">Message* <span class="visually-hidden">(obligatoire)</span></label>
-        <textarea id="message" name="message" placeholder="Que voulez-vous nous demander ?" style="height: 7rem;"
-          required></textarea>
-        <button type="submit" class="submit-button" aria-label="Envoyer">Envoyer</button>
-      </form>
-    </section>
-    <section aria-labelledby="support-heading" class="donation-section">
-      <h3 id="support-heading" style="padding-bottom:16px">Vous voulez faire partie de l'aventure ?</h3>
-      <h1>Soutenez-les</h1>
-      <button class="donate-button" aria-label="Faire un don">Faire un don</button>
-    </section>
-  </div>
+  <nav class="navbar" aria-label="Barre de navigation">
+    <div class="logo" style="padding-left:20px">
+      <a href="../index.html" aria-label="Retour à l'accueil">
+        <img src="../Public/images/logo-amar.avif" alt="Logo de l'association" class="logo">
+      </a>
+    </div>
+    <ul>
+      <li><a href="../index.html">Accueil</a></li>
+      <li><a href="../Views/about.html">A propos</a></li>
+      <li><a href="../Views/project.html">Le projet</a></li>
+      <li><a href="../Views/contact.html" style="font-weight: bold;">Contact</a></li>
+      <li>
+        <a class="donate-button"
+          href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1"
+          aria-label="Faire un don">Faire un don</a>
+      </li>
+      <li><button class="language-switch" aria-label="Changer de langage">FR</button></li>
+      <li>
+        <div class="container">
+          <input id="themeSwitcher" class="ThemeToggle" type="checkbox" title="Activer le mode Haut-Contraste"
+            aria-label="Activer le mode Haut-Contraste">
+        </div>
+      </li>
+    </ul>
+  </nav>
 
-
+  <main>
+    <div class="contact-page">
+      <section>
+        <div class="flex1">
+          <p class="almost-title">Vous souhaitez obtenir davantage d'informations?</p>
+        </div>
+        <div class="separator"></div>
+        <form class="input-container flex2">
+          <label for="firstname">Prénom* <span class="visually-hidden">(obligatoire)</span></label>
+          <input type="text" id="firstname" name="firstname" placeholder="François" required>
+          <label for="name">Nom* <span class="visually-hidden">(obligatoire)</span></label>
+          <input type="text" id="name" name="name" placeholder="Durand" required>
+          <label for="email">Email* <span class="visually-hidden">(obligatoire)</span></label>
+          <input type="email" id="email" name="email" placeholder="françois.durand@gmail.com" required>
+          <label for="message">Message* <span class="visually-hidden">(obligatoire)</span></label>
+          <textarea id="message" name="message" placeholder="Que voulez-vous nous demander ?" style="height: 7rem;"
+            required></textarea>
+          <button type="submit" class="submit-button" aria-label="Envoyer">Envoyer</button>
+        </form>
+      </section>
+      <section aria-labelledby="support-heading" class="donation-section">
+        <h3 id="support-heading" style="padding-bottom:16px">Vous voulez faire partie de l'aventure ?</h3>
+        <h1>Soutenez-les</h1>
+        <a class="donate-button"
+          href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1"
+          aria-label="Faire un don">Faire un don</a>
+      </section>
+    </div>
+  </main>
 
   <footer role="contentinfo" aria-label="Pied de page">
     <p class="visually-hidden">Début de la section du pied de page</p>
