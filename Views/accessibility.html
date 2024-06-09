@@ -1,157 +1,149 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accueil</title>
-    <link rel="stylesheet" href="../Public/css/utils/colors.css">
-    <link rel="stylesheet" href="../Public/css/reset.css">
-    <link rel="stylesheet" href="../Public/css/main.css">
-    <link rel="stylesheet" href="../Public/css/views/accessibility.css">
-    <link rel="stylesheet" href="../Public/css/views/navbar.css">
-    <link rel="stylesheet" href="../Public/css/views/footer.css">
-</head>
-<nav class="navbar" aria-label="Barre de navigation">
-    <div class="logo" style="padding-left:20px">
-    <a href="../index.html" aria-label="Retour à l'accueil">
-      <img src="../Public/images/logo-amar.avif" alt="Logo de l'association" class="logo">
-    </a>
-  </div>
-    <ul>
+    <link rel="stylesheet" href="../Public/css/utils/colors.css" />
+    <link rel="stylesheet" href="../Public/css/reset.css" />
+    <link rel="stylesheet" href="../Public/css/main.css" />
+    <link rel="stylesheet" href="../Public/css/views/accessibility.css" />
+    <link rel="stylesheet" href="../Public/css/views/navbar.css" />
+    <link rel="stylesheet" href="../Public/css/views/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar" aria-label="Barre de navigation">
+      <div class="logo" style="padding-left: 20px">
+        <a href="../index.html" aria-label="Retour à l'accueil">
+          <img src="../Public/images/logo-amar.avif" alt="Logo de l'association" class="logo" />
+        </a>
+      </div>
+      <ul>
         <li><a href="../index.html">Accueil</a></li>
         <li><a href="../Views/about.html">A propos</a></li>
         <li><a href="../Views/project.html">Le projet</a></li>
         <li><a href="../Views/contact.html">Contact</a></li>
         <li>
-            <a class="donate-button" href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1" aria-label="Faire un don">Faire un don</a>
+          <a class="donate-button" href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1" aria-label="Faire un don"
+            >Faire un don</a
+          >
         </li>
-        <li><button class="language-switch" aria-label="Changer de langage">FR</button></li>
+        <li><button class="language-switch" aria-label="Changer de langue">FR</button></li>
         <li>
-            <div class="container">
-                <input id="themeSwitcher" class="ThemeToggle" type="checkbox" title="Activer le mode Haut-Contraste"
-                    aria-label="Activer le mode Haut-Contraste">
-            </div>
+          <div class="container">
+            <input id="themeSwitcher" class="ThemeToggle" type="checkbox" title="Activer le mode Haut-Contraste" aria-label="Activer le mode Haut-Contraste" />
+          </div>
         </li>
-    </ul>
-</nav>
+      </ul>
+    </nav>
 
-<body>
-    <div class="main-content">
-        <section class="section">
-            <h1>Déclaration d’accessibilité</h1>
-            <p>
-                AMAR-HANDICAP s’engage à rendre ses sites internet, intranet, extranet et ses progiciels accessibles (et
-                ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la loi n°2005-102
-                du 11 février 2005.
-            </p>
-            <p>À cette fin, AMAR-HANDICAP met en œuvre la stratégie et les actions suivantes :</p>
-            <ul>
-                <li>Schéma pluriannuel de mise en accessibilité 2022-2024</li>
-                <li>Actions réalisées en 2020-2021</li>
-                <li>Plan d’actions 2022-2024</li>
-            </ul>
-            <p>Cette déclaration d’accessibilité s’applique à www.AMAR-HANDICAP.gouv.fr.</p>
+    <section class="section section-accessibility" aria-labelledby="accessibility-statement-heading">
+      <h1 id="accessibility-statement-heading">Déclaration d’accessibilité</h1>
+      <p>Établie le <time datetime="2024-06-06">6 juin 2024</time>.</p>
+      <p>
+        <span>Notre organisation</span>
+        s’engage à rendre son service accessible, conformément à l’article 47 de la loi n° 2005-102 du 11 février 2005.
+      </p>
+      <p>
+        Cette déclaration d’accessibilité s’applique à
+        <strong>AMAR-HANDICAP</strong> (<a href="https://amar-handicap.github.io">https://amar-handicap.github.io</a>).
+      </p>
+      <h2 id="conformance-status">État de conformité</h2>
+      <p>
+        <strong>AMAR-HANDICAP</strong> est
+        <strong><span data-printfilter="lowercase">partiellement conforme</span></strong>
+        avec le
+        <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.
+      </p>
+      <h2 id="test-results">Résultats des tests</h2>
+      <p>
+        L’audit de conformité réalisé
+        <span>en auto-évaluation</span> révèle que <span>78</span>% des critères sont respectés.
+      </p>
+      <h2 id="declaration-establishment">Établissement de cette déclaration d’accessibilité</h2>
+      <p>
+        Cette déclaration a été établie le
+        <time datetime="2024-06-06">6 juin 2024</time>.
+      </p>
+      <h3 id="technologies-used">Technologies utilisées</h3>
+      <p>
+        L’accessibilité de
+        <span>AMAR-HANDICAP</span>
+        s’appuie sur les technologies suivantes :
+      </p>
+      <ul class="technical-information technologies-used">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h2 id="improvement-contact">Amélioration et contact</h2>
+      <p>
+        Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de
+        <span>AMAR-HANDICAP</span>
+        pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
+      </p>
+      <ul class="basic-information feedback h-card">
+        <li>Téléphone : <span>03 00 00 00 00</span></li>
+        <li>
+          E-mail :
+          <a href="mailto:contact@amar-handicap.org">contact@amar-handicap.org</a>
+        </li>
+        <li>
+          Formulaire de contact :
+          <a href="https://amar-handicap.github.io/contact">Nous contacter</a>
+        </li>
+      </ul>
+      <h2 id="recourse">Voie de recours</h2>
+      <p>
+        Cette procédure est à utiliser dans le cas suivant : vous avez signalé au responsable du site internet un défaut d’accessibilité qui vous empêche d’accéder à un contenu ou à un des services du
+        portail et vous n’avez pas obtenu de réponse satisfaisante.
+      </p>
+      <p>Vous pouvez :</p>
+      <ul>
+        <li>
+          Écrire un message au
+          <a href="https://formulaire.defenseurdesdroits.fr/">Défenseur des droits</a>
+        </li>
+        <li>
+          Contacter
+          <a href="https://www.defenseurdesdroits.fr/saisir/delegues">le délégué du Défenseur des droits dans votre région</a>
+        </li>
+        <li>
+          Envoyer un courrier par la poste (gratuit, ne pas mettre de timbre) :
+          <address>
+            Défenseur des droits<br />
+            Libre réponse 71120<br />
+            75342 Paris CEDEX 07
+          </address>
+        </li>
+      </ul>
+      <hr />
+      <p>
+        Cette déclaration d’accessibilité a été créée le
+        <time datetime="2024-06-06">6 juin 2024</time>
+        grâce au
+        <a href="https://betagouv.github.io/a11y-generateur-declaration/#create">Générateur de Déclaration d’Accessibilité de BetaGouv</a>.
+      </p>
+    </section>
 
-            <h2>État de conformité</h2>
-            <p><a href="https://www.amar-handicap.org">AMAR-HANDICAP</a> est non/partiellement/totalement conforme avec
-                le référentiel général d’amélioration de l’accessibilité (RGAA), version 4 en raison des non-conformités
-                et des dérogations énumérées ci-dessous.</p>
-
-            <h2>Résultats des tests</h2>
-            <p>L’audit de conformité réalisé par LA VAG révèle que :</p>
-            <ul>
-                <li>[nn]% des critères du RGAA version 4 sont respectés</li>
-            </ul>
-
-            <h2>Contenus non accessibles</h2>
-            <h3>Non-conformités</h3>
-            <ul>
-                <li>Aucune pour l'instant.
-            </ul>
-
-            <h2>Établissement de cette déclaration d’accessibilité</h2>
-            <p>Cette déclaration a été établie le 31/05/2024. Elle a été mise à jour le 31/05/2024.</p>
-
-            <h2>Technologies utilisées pour la réalisation du site</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-
-            <h2>Environnement de test</h2>
-            <p>Les vérifications de restitution de contenus ont été réalisées sur la base de la combinaison fournie par
-                la base de référence du RGAA, avec les versions suivantes :</p>
-            <ul>
-                <li>Brave et NVDA</li>
-                <li>Opera et NVDA</li>
-            </ul>
-
-            <h2>Outils pour évaluer l’accessibilité</h2>
-            <ul>
-                <li>color contrast analyzer</li>
-                <li>axe DevTools</li>
-                <li>Wave</li>
-            </ul>
-
-            <h2>Pages du site ayant fait l’objet de la vérification de conformité</h2>
-            <ul>
-                <li>page d’accueil [url]</li>
-                <li>page contact [url]</li>
-                <li>page mentions légales [url]</li>
-                <li>page accessibilité [url]</li>
-                <li>page plan du site [url]</li>
-                <li>page d’aide [url]</li>
-            </ul>
-
-            <h2>Retour d’information et contact</h2>
-            <p>
-                Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de
-                [nom du site] pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre
-                forme.
-            </p>
-            <ul>
-                <li>Envoyer un message [url du formulaire en ligne]</li>
-                <li>Contacter [Nom de l’entité responsable du service en ligne et coordonnées]</li>
-            </ul>
-
-            <h2>Voies de recours</h2>
-            <p>
-                Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité
-                du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse de notre part, vous
-                êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.
-            </p>
-            <p>Plusieurs moyens sont à votre disposition :</p>
-            <ul>
-                <li>Écrire un message au Défenseur des droits</li>
-                <li>Contacter le délégué du Défenseur des droits dans votre région</li>
-                <li>Envoyer un courrier par la poste (gratuit, ne pas mettre de timbre) Défenseur des droits Libre
-                    réponse 71120 75342 Paris CEDEX 07</li>
-            </ul>
-        </section>
-    </div>
-
-
-
-
-    <footer role="contentinfo" aria-label="Pied de page">
-        <p class="visually-hidden">Début de la section du pied de page</p>
-        <div class="div-logo-footer">
-            <img src="../Public/images/logo-amar.avif"
-                alt="Logo de l'Association pour la Mobilité, l'Accessibilité et la Réhabilitation" class="logo-footer">
-        </div>
-        <nav class="footer-infos" aria-label="Liens du pied de page">
-            <p class="bold text-align-right">Association pour la Mobilité, <br>l'Accessibilité et la Réhabilitation</p>
-            <p class="text-align-left">
-                <a class="drop-link-style" href="mailto:contact@amar-handicap.org">contact@amar-handicap.org</a>
-            </p>
-        </nav>
-        <p class="copyright">&copy; 2024 AMAR-HANDICAP. Tous droits réservés.</p>
-        <p class="visually-hidden">Fin de la section du pied de page</p>
+    <footer role="contentinfo" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="visually-hidden">Pied de page</h2>
+      <div class="div-logo-footer">
+        <img src="../Public/images/logo-amar.avif" alt="Logo de l'Association pour la Mobilité, l'Accessibilité et la Réhabilitation" class="logo-footer" />
+      </div>
+      <nav class="footer-infos" aria-label="Liens du pied de page">
+        <p class="bold text-align-right">Association pour la Mobilité, <br />l'Accessibilité et la Réhabilitation</p>
+        <p class="text-align-center">
+          <a class="drop-link-style" href="mailto:contact@amar-handicap.org">contact@amar-handicap.org</a>
+        </p>
+        <p class="text-align-left flex-column">
+          <a class="drop-link-style" href="../Views/accessibility.html">Accessibilité</a>
+          <a class="drop-link-style" href="../Views/mentions.html">Mentions légales</a>
+        </p>
+      </nav>
+      <p class="copyright">&copy; 2024 AMAR-HANDICAP. Tous droits réservés.</p>
     </footer>
     <script src="../Public/js/main.js"></script>
     <script src="../Public/js/theme.js"></script>
-</body>
-
+  </body>
 </html>
