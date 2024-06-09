@@ -6,7 +6,6 @@ if (localStorage.getItem("themeMode") === null) {
   themeSwitcher.checked = false;
 }
 
-// Call the function on page load
 updateTheme();
 updateThemeToggle();
 
@@ -93,23 +92,20 @@ themeSwitcher.addEventListener("change", function () {
   updateTheme();
 });
 
-// window
-//   .matchMedia("(prefers-color-scheme: access)")
-//   .addEventListener("change", function () {
-//     if (accessModeMediaQuery.matches) {
-//       localStorage.setItem("themeMode", "access");
-//     } else {
-//       localStorage.setItem("themeMode", "normal");
-//     }
-
-//     if (localStorage.getItem("themeMode") === "access") {
-//       themeSwitcher.checked = false;
-//     } else {
-//       themeSwitcher.checked = true;
-//     }
-//     updateThemeToggle();
-//     updateTheme();
-//   });
+document.addEventListener("DOMContentLoaded", function () {
+  const themeSwitcher = document.getElementById("themeSwitcher");
+  themeSwitcher.addEventListener("keydown", function (event) {
+    if (event.key === " ") {
+      // event.preventDefault();
+      if (theme === "access") {
+        localStorage.setItem("themeMode", "normal");
+      } else {
+        localStorage.setItem("themeMode", "access");
+      }
+      updateTheme();
+    }
+  });
+});
 
 function updateThemeToggle() {
   if (localStorage.getItem("themeMode") === "access") {
