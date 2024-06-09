@@ -3,25 +3,31 @@
   width: 84px;
   height: 42px;
   display: inline-block;
-  margin: 0 20px;
+  margin-right: 40px;
   position: relative;
   border-radius: 50px;
   overflow: hidden;
   outline: none;
   border: none;
   cursor: pointer;
-  background: var(--access-shadow);
+  background: var(--current-shadow);
   transition: background-color ease 0.3s;
 }
 
+.ThemeToggle:focus {
+  outline: none; /* Supprime le contour par défaut */
+  box-shadow: 0 0 2px 2px #51a7e8; /* Ajoute une ombre au focus */
+}
+
 .ThemeToggle::before {
-  content: url("https://shivanarrthine.com/public/images/icons/moon.svg");
+  content: url(../../images/accessibility-eye.svg);
+  filter: invert(100%);
   display: block;
   position: absolute;
   z-index: 2;
   width: 34px;
   height: 34px;
-  background-color: var(--access-background);
+  background-color: var(--current-background);
   left: 4px;
   top: 4px;
   border-radius: 50%;
@@ -33,13 +39,14 @@
 }
 
 .ThemeToggle:checked {
-  background-color: var(--normal-shadow);
+  background-color: var(--current-shadow);
 }
 
 .ThemeToggle:checked::before {
   left: 42px;
-  content: url("https://shivanarrthine.com/public/images/icons/sun.svg");
-  background: var(--normal-background);
+  filter: none !important;
+  content: url(../../images/accessibility-eye.svg);
+  background: var(--reverse-current-background);
 }
 
 .navbar {
@@ -81,7 +88,7 @@
 }
 
 .navbar ul li a:hover {
-  color: var(--current-tertiary-color)
+  color: var(--current-tertiary-color);
 }
 
 .navbar .donate-button {

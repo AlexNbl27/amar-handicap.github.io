@@ -1,14 +1,14 @@
 :root {
   /* Current colors */
-    --current-main-color: #000000;
-    --current-secondary-color: #000000;
-    --current-tertiary-color: #000000;
-    --current-background: #000000;
-    --reverse-current-background: #ffffff;
-    --current-font: #ffffff;
+    --current-main-color: #e7f3e9;
+    --current-secondary-color: #5c2483;
+    --current-tertiary-color: #1dac9b;
+    --current-background: #fcfcfc;
+    --reverse-current-background: #1f1f1f;
+    --current-font: #000000;
     --current-shadow: #ffffff10;
     --reverse-current-shadow: #00000010;
-    --current-transparent: #ffffff7a;
+    --current-transparent: #0000008d;
 
     /* Normal mode */
     --normal-main-color: #e7f3e9;
