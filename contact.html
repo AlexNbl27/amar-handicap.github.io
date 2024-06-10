@@ -48,19 +48,20 @@
         </div>
         <div class="separator"></div>
         <form class="input-container flex2">
-          <label for="firstname">Prénom*</label>
+          <label for="firstname" aria-hidden="true">Prénom*</label>
           <input type="text" id="firstname" name="firstname" placeholder="François"
             aria-label="Prénom (champ obligatoire)" required />
-          <label for="name">Nom*</label>
+          <label for="name" aria-hidden="true">Nom*</label>
           <input type="text" id="name" name="name" placeholder="Durand" aria-label="Nom (champ obligatoire)" required />
-          <label for="email">Email*</label>
+          <label for="email" aria-hidden="true">Email*</label>
           <input type="email" id="email" name="email" placeholder="françois.durand@gmail.com"
             aria-label="Email (champ obligatoire)" required />
-          <label for="message">Message*</label>
+          <label for="message" aria-hidden="true">Message*</label>
           <textarea id="message" name="message" placeholder="Que voulez-vous nous demander ?" style="height: 7rem"
             aria-label="Message (champ obligatoire)" required></textarea>
           <button type="submit" class="submit-button" aria-label="Envoyer le message">Envoyer</button>
         </form>
+
       </section>
       <section class="donation-section">
         <h2 id="support-heading" class="visually-hidden">Section concernant les dons à l'association</h2>
