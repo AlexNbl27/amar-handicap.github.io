@@ -85,6 +85,7 @@
   text-decoration: none;
   color: var(--current-secondary-color);
   padding: 8px 12px;
+  font-size: 1.2rem !important;
 }
 
 .navbar ul li a:hover {
