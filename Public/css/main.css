@@ -187,3 +187,7 @@ p {
 .donation-section h3 {
   color: var(--current-background);
 }
+
+a {
+  color: var(--current-secondary-color);
+}
