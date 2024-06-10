@@ -1,168 +1,176 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil</title>
+    <link rel="stylesheet" href="Public/css/utils/colors.css" />
+    <link rel="stylesheet" href="Public/css/reset.css" />
+    <link rel="stylesheet" href="Public/css/main.css" />
+    <link rel="stylesheet" href="Public/css/views/homepage.css" />
+    <link rel="stylesheet" href="Public/css/views/navbar.css" />
+    <link rel="stylesheet" href="Public/css/views/footer.css" />
+    <link rel="stylesheet" href="Public/css/views/homepage.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Accueil</title>
-  <link rel="stylesheet" href="Public/css/utils/colors.css" />
-  <link rel="stylesheet" href="Public/css/reset.css" />
-  <link rel="stylesheet" href="Public/css/main.css" />
-  <link rel="stylesheet" href="Public/css/views/homepage.css" />
-  <link rel="stylesheet" href="Public/css/views/navbar.css" />
-  <link rel="stylesheet" href="Public/css/views/footer.css" />
-  <link rel="stylesheet" href="Public/css/views/homepage.css" />
-</head>
+  <nav class="navbar" aria-label="Barre de navigation">
+    <div class="logo" style="padding-left: 20px">
+      <img src="Public/images/logo-amar.avif" alt="" class="logo" />
+    </div>
+    <ul>
+      <li><a href="index.html" style="font-weight: bold">Accueil</a></li>
+      <li><a href="about.html">A propos</a></li>
+      <li><a href="project.html">Le projet</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li>
+        <a class="donate-button" href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1" aria-label="Faire un don"
+          >Faire un don</a
+        >
+      </li>
+      <li>
+        <label for="themeSwitcher" class="ThemeToggleLabel" aria-label="Activer le mode Haut-Contraste en appuyant sur la barre espace">
+          <input id="themeSwitcher" class="ThemeToggle" type="checkbox" tabindex="0" />
+        </label>
+      </li>
+    </ul>
+  </nav>
 
-<nav class="navbar" aria-label="Barre de navigation">
-  <div class="logo" style="padding-left: 20px">
-    <img src="Public/images/logo-amar.avif" alt="" class="logo" />
-  </div>
-  <ul>
-    <li><a href="index.html" style="font-weight: bold">Accueil</a></li>
-    <li><a href="about.html">A propos</a></li>
-    <li><a href="project.html">Le projet</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li>
-      <a class="donate-button"
-        href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1"
-        aria-label="Faire un don">Faire un don</a>
-    </li>
-    <li>
-      <label for="themeSwitcher" class="ThemeToggleLabel"
-        aria-label="Activer le mode Haut-Contraste en appuyant sur la barre espace">
-        <input id="themeSwitcher" class="ThemeToggle" type="checkbox" tabindex="0">
-      </label>
-    </li>
-  </ul>
-</nav>
-
-<body>
-  <div class="homepage">
-    <section class="flex-column">
-      <h1 class="first-title">Ensemble pour la mobilité des enfants avec un handicap moteur</h1>
-      <div>
-        <img alt=""
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1224,h=496,fit=crop/mxBlj535R5FRxlpJ/logo_amar_degradei-mk3y8x1QeRHrMkeX.png" />
-      </div>
-    </section>
-    <section class="white-background">
-      <div class="flex2">
-        <h2>Notre raison d'être</h2>
-        <p>L'association a pour but de sensibiliser et de faciliter la mobilité, l'accessibilité et la réhabilitation
-          pour les personnes en situation de handicap.</p>
-        <p>Elle aspire à améliorer leur qualité de vie en leur permettant d'accéder à des équipements adaptés.</p>
-        <p>L'objectif de A.M.A.R. est de créer un environnement inclusif où chaque personne a la possibilité de vivre et
-          de s'épanouir pleinement dans la société.</p>
-      </div>
-      <div>
-        <img alt=""
-          src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=480,h=320,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png"
-          srcset="
+  <body>
+    <div class="homepage">
+      <section class="flex-column">
+        <h1>Ensemble pour la mobilité des enfants avec un handicap moteur</h1>
+        <div>
+          <img class="big-logo" alt="" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1224,h=496,fit=crop/mxBlj535R5FRxlpJ/logo_amar_degradei-mk3y8x1QeRHrMkeX.png" />
+        </div>
+      </section>
+      <section class="white-background">
+        <div class="flex2">
+          <h2>Notre raison d'être</h2>
+          <p>L'association a pour but de sensibiliser et de faciliter la mobilité, l'accessibilité et la réhabilitation pour les personnes en situation de handicap.</p>
+          <p>Elle aspire à améliorer leur qualité de vie en leur permettant d'accéder à des équipements adaptés.</p>
+          <p>L'objectif de A.M.A.R. est de créer un environnement inclusif où chaque personne a la possibilité de vivre et de s'épanouir pleinement dans la société.</p>
+        </div>
+        <div>
+          <img
+            alt=""
+            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=480,h=320,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png"
+            srcset="
               https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=219,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png 328w,
               https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=437,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png 656w,
               https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=861,h=574,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png 861w,
               https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=656,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png 984w,
               https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=480,h=320,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png 480w,
               https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=960,h=640,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustration-papillon-m2WlBP2OB7CW5Wob.png 960w
-            " sizes="(min-width: 920px) 480px, calc(100vw - 0px)" height="320" width="480" loading="lazy" />
-      </div>
-    </section>
+            "
+            sizes="(min-width: 920px) 480px, calc(100vw - 0px)"
+            height="320"
+            width="480"
+            loading="lazy"
+          />
+        </div>
+      </section>
 
-    <section class="flex-column">
-      <h2 style="padding-bottom: 48px; font-size:3rem">Que fait A.M.A.R ?</h2>
-      <div class="grid-container A flex-start">
-        <div class="grid-item flex-row flex-start">
-          <div class="flex1 flex-column grid-image flex-end">
-            <img alt="Dessin d'un verticalisateur"
-              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=206,h=293,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png"
-              srcset="
+      <section class="flex-column">
+        <h2 style="padding-bottom: 48px; font-size: 3rem">Que fait A.M.A.R ?</h2>
+        <div class="grid-container A flex-start">
+          <div class="grid-item flex-row flex-start">
+            <div class="flex1 flex-column grid-image flex-end">
+              <img
+                alt="Dessin d'un verticalisateur"
+                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=206,h=293,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png"
+                srcset="
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=467,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png  328w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=933,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png  656w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=861,h=1225,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png 861w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=1400,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png 984w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=206,h=293,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png  206w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=412,h=586,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-clair-3-AwvJj5B0BPTND46G.png  412w
-                " sizes="(min-width: 920px) 206px, calc(100vw - 0px)" height="293" width="206" loading="lazy"
-              class="image__image" data-v-04610e81="" data-qa="builder-gridelement-gridimage" />
+                "
+                sizes="(min-width: 920px) 206px, calc(100vw - 0px)"
+                height="293"
+                width="206"
+                loading="lazy"
+                class="image__image"
+                data-v-04610e81=""
+                data-qa="builder-gridelement-gridimage"
+              />
+            </div>
+            <div class="separator"></div>
+            <div class="flex2 flex-column">
+              <p>Des enfants, ayant un handicap moteur, bénéficient d'appareillages selon leurs besoins.</p>
+              <p>
+                Le but de l’association A.M.A.R est de récupérer ces appareillages afin de faire donation à un maximum d’enfants... Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
+                l'ancien appareillage, encore en bon état, ne se réutilise pas et il finit la plupart du temps à la déchetterie.
+              </p>
+            </div>
           </div>
-          <div class="separator"></div>
-          <div class="flex2 flex-column">
-            <p>
-              Des enfants, ayant un handicap moteur, bénéficient d'appareillages selon leurs besoins.
-            </p>
-            <p>
-              Le but de l’association A.M.A.R est de récupérer ces appareillages afin de faire
-              donation à un maximum d’enfants... Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
-              l'ancien appareillage, encore en bon état, ne se réutilise pas et il finit la
-              plupart du temps à la déchetterie.
-            </p>
-          </div>
+          <div class="grid-item"></div>
         </div>
-        <div class="grid-item"></div>
-      </div>
-      <div class="grid-container B flex-end">
-        <div class="grid-item"></div>
-        <div class="grid-item flex-row flex-end">
-          <div class="flex2 flex-column">
-            <p>
-              Des enfants, ayant un handicap moteur, bénéficient d'appareillages selon leurs besoins.
-            </p>
-            <p>
-              Le but de l’association A.M.A.R est de récupérer ces appareillages afin de faire
-              donation à un maximum d’enfants... Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
-              l'ancien appareillage, encore en bon état, ne se réutilise pas et il finit la
-              plupart du temps à la déchetterie.
-            </p>
-          </div>
-          <div class="separator"></div>
-          <div class="flex1 flex-column grid-image">
-            <img alt=""
-              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=179,h=309,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png"
-              srcset="
+        <div class="grid-container B flex-end">
+          <div class="grid-item"></div>
+          <div class="grid-item flex-row flex-end">
+            <div class="flex2 flex-column">
+              <p>Des enfants, ayant un handicap moteur, bénéficient d'appareillages selon leurs besoins.</p>
+              <p>
+                Le but de l’association A.M.A.R est de récupérer ces appareillages afin de faire donation à un maximum d’enfants... Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
+                l'ancien appareillage, encore en bon état, ne se réutilise pas et il finit la plupart du temps à la déchetterie.
+              </p>
+            </div>
+            <div class="separator"></div>
+            <div class="flex1 flex-column grid-image">
+              <img
+                alt=""
+                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=179,h=309,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png"
+                srcset="
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=566,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png  328w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=1132,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png 656w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=861,h=1486,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png 861w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=1699,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png 984w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=179,h=309,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png  179w,
                   https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=358,h=618,fit=crop/mxBlj535R5FRxlpJ/a.m.a.r.-identite-illustrations-dispositif-fonce-1-YD0D8gqZ8VuvXvn5.png  358w
-                " sizes="(min-width: 920px) 179px, calc(100vw - 0px)" height="309" width="179" loading="lazy"
-              class="image__image--zoom image__image" data-v-04610e81="" data-qa="builder-gridelement-gridimage" />
+                "
+                sizes="(min-width: 920px) 179px, calc(100vw - 0px)"
+                height="309"
+                width="179"
+                loading="lazy"
+                class="image__image--zoom image__image"
+                data-v-04610e81=""
+                data-qa="builder-gridelement-gridimage"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="donation-section">
-      <h2 id="support-heading" class="visually-hidden">Section concernant les dons à l'association</h2>
-      <h3 style="padding-bottom: 16px">Vous voulez faire partie de l'aventure ?</h3>
-      <h1>Soutenez-les</h1>
-      <a class="donate-button"
-        href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1"
-        aria-label="Faire un don">Faire un don</a>
-    </section>
-  </div>
-
-  <!-- Contenu de la page -->
-
-  <footer role="contentinfo" aria-labelledby="footer-heading">
-    <h2 id="footer-heading" class="visually-hidden">Pied de page</h2>
-    <div class="div-logo-footer">
-      <img src="Public/images/logo-amar.avif" alt="" class="logo-footer" />
+      </section>
+      <section class="donation-section">
+        <h2 id="support-heading" class="visually-hidden">Section concernant les dons à l'association</h2>
+        <h3 style="padding-bottom: 16px">Vous voulez faire partie de l'aventure ?</h3>
+        <h1>Soutenez-les</h1>
+        <a class="donate-button" href="https://www.helloasso.com/associations/association-pour-la-mobilite-l-accessibilite-et-la-rehabilitation/formulaires/1" aria-label="Faire un don"
+          >Faire un don</a
+        >
+      </section>
     </div>
-    <nav class="footer-infos" aria-label="Liens du pied de page">
-      <p class="bold text-align-right">Association pour la Mobilité, <br />l'Accessibilité et la Réhabilitation</p>
-      <p class="text-align-center">
-        <a class="drop-link-style" href="mailto:contact@amar-handicap.org">contact@amar-handicap.org</a>
-      </p>
-      <p class="text-align-left flex-column">
-        <a class="drop-link-style" href="accessibility.html">Accessibilité</a>
-        <a class="drop-link-style" href="mentions.html">Mentions légales</a>
-      </p>
-    </nav>
-    <p class="copyright">&copy; 2024 AMAR-HANDICAP. Tous droits réservés.</p>
-  </footer>
 
-  <script src="Public/js/theme.js" defer></script>
-</body>
+    <!-- Contenu de la page -->
 
+    <footer role="contentinfo" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="visually-hidden">Pied de page</h2>
+      <div class="div-logo-footer">
+        <img src="Public/images/logo-amar.avif" alt="" class="logo-footer" />
+      </div>
+      <nav class="footer-infos" aria-label="Liens du pied de page">
+        <p class="bold text-align-right">Association pour la Mobilité, <br />l'Accessibilité et la Réhabilitation</p>
+        <p class="text-align-center">
+          <a class="drop-link-style" href="mailto:contact@amar-handicap.org">contact@amar-handicap.org</a>
+        </p>
+        <p class="text-align-left flex-column">
+          <a class="drop-link-style" href="accessibility.html">Accessibilité</a>
+          <a class="drop-link-style" href="mentions.html">Mentions légales</a>
+        </p>
+      </nav>
+      <p class="copyright">&copy; 2024 AMAR-HANDICAP. Tous droits réservés.</p>
+    </footer>
+
+    <script src="Public/js/theme.js" defer></script>
+  </body>
 </html>
