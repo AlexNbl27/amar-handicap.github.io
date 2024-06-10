@@ -39,6 +39,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--current-secondary-color);
+  pointer-events: none;
 }
 
 .input-container button {
