@@ -15,12 +15,21 @@ ul {
   margin: 10px 0 20px 20px;
   padding: 0;
   color: var(--current-font);
+  font-size: 1.2rem;
+}
+
+address {
+  margin: 10px 0;
+  color: var(--current-font);
+  font-size: 1.1rem;
+  font-style: italic;
+  display: block;
 }
 
 ul li {
   margin: 5px 0;
   color: var(--current-font);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 body {
