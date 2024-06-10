@@ -17,6 +17,11 @@
   margin-bottom: 32px;
 }
 
+.big-logo {
+  width: 100%;
+  height: auto;
+}
+
 .grid-container {
   width: 100%;
   display: grid;
