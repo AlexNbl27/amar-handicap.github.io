@@ -46,7 +46,6 @@
 
 .adrien {
   display: flex;
-  margin-left: 6.5rem;
   font-weight: bold;
   color: var(--current-secondary-color);
 }
@@ -98,4 +97,12 @@
 
 .grid-item p {
   margin: 0;
+}
+
+.flex-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
